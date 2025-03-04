@@ -28,13 +28,13 @@ pip install -e .
 ```
 
 ### 1、Train LLaVA with style prompts
-- The instruction datas for training the LLaVA-1.5 are built on CUHK-PEDES and ICFG-PEDES and released at [here](https://pan.baidu.com/s/1y5v1aGyOp3ytCmfy0Q8Lfw?pwd=4y71).
+- The instruction datas for training the LLaVA-1.6 are built on CUHK-PEDES and ICFG-PEDES and released at [here](https://pan.baidu.com/s/1y5v1aGyOp3ytCmfy0Q8Lfw?pwd=4y71).
 - Replace the '-data_path' in './scripts/v1_5/finetune_task.sh' and run this .sh file to train the LLaVA with style prompts for image captioner.
 
 ### 2、Generate diverse captions for pedestrians images
 - Prepare the SYNTH-PEDES images from [here](https://github.com/Zplusdragon/PLIP).
 - Replace the checkpoint path in caption.py and run this file.
-- We have also released our HAM-PEDES dataset at [./HAM_data/HAM_PEDES](https://pan.baidu.com/s/1y5v1aGyOp3ytCmfy0Q8Lfw?pwd=4y71), which consists of 2 captions per image for 1 million images, generated using the LLaVA1.5 model trained with our HAM method.
+- We have also released our HAM-PEDES dataset at [./HAM_data/HAM_PEDES](https://pan.baidu.com/s/1y5v1aGyOp3ytCmfy0Q8Lfw?pwd=4y71), which consists of 2 captions per image for 1 million images, generated using the LLaVA1.6 model trained with our HAM method.
 
 ### 3、Train ReID model with our dataset
 - We train the ReID model (CLIP-ViT-B/16) based on the [IRRA](https://github.com/anosorae/IRRA) code and our dataset, retaining only the SDM loss. Then we can get the ReID Pretrain model.
