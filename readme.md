@@ -47,6 +47,16 @@ pip install -e .
 ### Acknowledgments
 This repo borrows partially from [LLaVA](https://github.com/haotian-liu/LLaVA).
 
+### Citation
+```
+@article{jiang2025modeling,
+  title={Modeling Thousands of Human Annotators for Generalizable Text-to-Image Person Re-identification},
+  author={Jiayu Jiang, Changxing Ding, Wentao Tan, Junhong Wang, Jin Tao, Xiangming Xu},
+  journal={CVPR},
+  year={2025},
+}
+```
+
 ### Contact
 Email: 272521211@qq.com
 
