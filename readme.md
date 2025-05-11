@@ -43,6 +43,8 @@ pip install -e .
 
 ### 4、Finetune on downstream dataset based on other methods（e.g., IRRA, RDE）
 - Initialize the model weights with our ReID pretrained model and reduce the learning rate by half.
+- The finetune code resues the code from IRRA/RDE, with some hyper-parameters set as follows: bath_size=128, num_gpus=1, epoch=60, lr=5e-6.
+  The IRRA finetune log file and checkpoints are released in ./ham_finetuneIRRAcuhk folder. For detailed hyper-parameters please refer to the log files.
 
 ### Acknowledgments
 This repo borrows partially from [LLaVA](https://github.com/haotian-liu/LLaVA).
