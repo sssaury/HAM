@@ -39,7 +39,7 @@ pip install -e .
 ### 3、Train ReID model with our dataset
 - We train the ReID model (CLIP-ViT-B/16) based on the [IRRA](https://github.com/anosorae/IRRA) code and our dataset, retaining only the SDM loss. Then we can get the ReID Pretrain model.
 - After the model training is completed and evaluated on CUHK-PEDES, ICFG-PEDES and RSTPReid, it provide the performance of direct transfer setting in our paper.
-- We have also release our ReID Pretrain model at [Baiduyun](https://pan.baidu.com/s/19xKmnYNV-XwK9FNcjkQmLw?pwd=bo63).
+- We have also release our ReID Pretrain model at [Baiduyun](https://pan.baidu.com/s/19xKmnYNV-XwK9FNcjkQmLw?pwd=bo63)(/random100w_2HAMcaptions).
 
 ### 4、Finetune on downstream dataset based on other methods（e.g., IRRA, RDE）
 - Initialize the model weights with our ReID pretrained model and reduce the learning rate by half.
